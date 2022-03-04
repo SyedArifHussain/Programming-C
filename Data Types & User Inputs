@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    /* Basic Data Types and Printing */
+    char characterName[] = "Syed";
+    int characterAge = 25;
+    printf("Character's Name is %s & Age is %d", characterName, characterAge);
+
+
+    /* Taking Input from User */
+    printf("\n \n \n");
+    printf("============================ \n");
+    printf("\n \n");
+    int age;
+    float weight;
+    printf("Enter your age: ");
+    scanf("%d", &age);
+    printf("Enter your weight: ");
+    scanf("%f", &weight);
+    printf("The entered age is %d and entered weight is %f \n \n", age, weight);
+
+
+    return 0;
+}
