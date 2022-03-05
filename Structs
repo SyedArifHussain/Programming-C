@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+/* STRUCT IN C */
+
+
+/* Reusable Struct code for every Student */
+struct Student
+{
+    char name[50];
+    char major[80];
+    int semester;
+    double cgpa;
+};
+
+int main()
+{
+    struct Student student1;
+    strcpy(student1.name, "Syed");
+    strcpy(student1.major, "Computer Science");
+    student1.semester = 3;
+    student1.cgpa = 3.4;
+
+    printf("\n\n========STUDENT 1===========\n\n");
+
+    printf("Name: %s \n", student1.name);
+    printf("Major: %s \n", student1.major);
+    printf("Semester: %d \n", student1.semester);
+    printf("CGPA: %f \n", student1.cgpa);
+
+    return 0;
+}
+
+
