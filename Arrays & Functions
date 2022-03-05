@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+/* Return Function defined before Main */
+double add(double num)
+{
+    return num + num;
+}
+
+
+int main()
+{
+    /* Arrays in C */
+printf("==========ARRAYS================\n");
+    int numbers[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    printf("%d", numbers[4]); /* to print the index of number present in array */
+
+
+printf("\n==========FUNCTIONS================\n");
+    /* Functions in C */
+
+sayHi();
+sayHi2("Syed", 25);
+
+printf("\n\nSum is: %f", add(5.0));
+
+
+    return 0;
+}
+
+void sayHi()
+{
+    printf("Hey User !");
+}
+
+void sayHi2(char name[], int age)
+{
+    printf("\nHey %s ! You are %d years old", name, age);
+}
+
+
