@@ -15,7 +15,18 @@ int main()
 printf("==========ARRAYS================\n");
     int numbers[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     printf("%d", numbers[4]); /* to print the index of number present in array */
+  
+  
+  /* 2D Arrays in C */
 
+     int arrays[3][2]=
+     {
+         {1,2},/* Element0 */
+         {3,4},/* Element1 */
+         {5,6}/* Element2 */
+     };
+      /* Accessing element in 2D Array */
+     printf("\n%d", arrays[0][1]);
 
 printf("\n==========FUNCTIONS================\n");
     /* Functions in C */
