@@ -34,7 +34,7 @@ do
  while(index <= 8);
 
 
- printf("\n\n=====FOR LOOP=====\n");
+ printf("\n\n======FOR LOOP======\n");
 
 for(int i = 1; i <= 10; i++)
 {
