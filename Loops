@@ -1,0 +1,56 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+/* LOOPS IN C */
+
+
+
+
+int main()
+{
+ printf("=====WHILE LOOP=====\n");
+ int indexx=1;
+
+ /* Getting memory address of a variable */
+
+ printf("The memory address of variable indexx is: %p", &indexx);
+
+ while(indexx <= 5)
+ {
+     printf("%d \n", indexx);
+     indexx++;
+ }
+
+
+ printf("\n\n=====DO WHILE LOOP=====\n");
+
+    int index=1;
+do
+ {
+     printf("%d \n", index);
+     index++;
+ }
+ while(index <= 8);
+
+
+ printf("\n\n=====FOR LOOP=====\n");
+
+for(int i = 1; i <= 10; i++)
+{
+    printf("%d \n", i);
+}
+
+/* Practice For Loop */
+ printf("\n\n=Practice=\n");
+int array[]={2,4,6,8,10};
+for(int i = 0; i < 5; i++)
+{
+    printf("%d \n", array[i]);
+}
+
+    return 0;
+}
+
+
+
